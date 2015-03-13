@@ -246,7 +246,7 @@ void ARDriver::DrawFadingGrid()
     dStrength = 1.0;
   dStrength = (60 - mnCounter) / 30.0;
   
-  glColor4f(1,1,1,dStrength);
+  glColor4f(1,1,1,(GLfloat)dStrength);
   int nHalfCells = 8;
   if(mnCounter < 8)
     nHalfCells = mnCounter + 1;

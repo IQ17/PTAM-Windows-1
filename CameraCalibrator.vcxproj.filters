@@ -60,4 +60,8 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="lapack-MT-release\x64\blas_win64_MT.lib" />
+    <Library Include="lapack-MT-release\x64\lapack_win64_MT.lib" />
+  </ItemGroup>
 </Project>
