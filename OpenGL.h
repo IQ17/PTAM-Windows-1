@@ -14,7 +14,7 @@
 
 #ifdef WIN32
 #define WIN32_LEAN_AND_MEAN
-#include <GL/glew.h>
+#include "GL/glew.h"
 #endif
 
 #include <cvd/gl_helpers.h>

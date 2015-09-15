@@ -38,6 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -77,9 +78,9 @@
     <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
-    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\PTAM-Windows\flyCapture\include;..\PTAM-Windows\directshow\Include;..\PTAM-Windows\qedit;..\PTAM-Windows\TooN-2.0;..\PTAM-Windows\pthread\include;..\PTAM-Windows\libcvd-20120202\libcvd-20120202;..\PTAM-Windows\gvars-3.0\gvars-3.0;..\PTAM-Windows\1394camera;$(IncludePath);</IncludePath>
-    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\PTAM-Windows\flyCapture\include;..\PTAM-Windows\directshow\Include;..\PTAM-Windows\qedit;..\PTAM-Windows\TooN-2.0;..\PTAM-Windows\pthread\include;..\PTAM-Windows\libcvd-20120202\libcvd-20120202;..\PTAM-Windows\gvars-3.0\gvars-3.0;..\PTAM-Windows\1394camera;$(IncludePath);</IncludePath>
-    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\PTAM-Windows\directshow\Lib;..\PTAM-Windows\1394camera;..\PTAM-Windows\pthread\libs;..\PTAM-Windows\lapack-MT-debug;..\PTAM-Windows\libcvd-20120202\libcvd-20120202\lib;..\PTAM-Windows\gvars-3.0\gvars-3.0\lib;..\PTAM-Windows\lapack-MT-release;..\PTAM-Windows\flyCapture\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\PTAM-Windows\flyCapture\include;..\PTAM-Windows\directshow\Include;..\PTAM-Windows\qedit;..\PTAM-Windows\TooN-2.0;..\PTAM-Windows\pthread\include;..\PTAM-Windows\libcvd-20120202\libcvd-20120202;..\PTAM-Windows\gvars-3.0\gvars-3.0;..\PTAM-Windows\1394camera;$(IncludePath);;D:\code\PTAM-Windows\glew\include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\PTAM-Windows\flyCapture\include;..\PTAM-Windows\directshow\Include;..\PTAM-Windows\qedit;..\PTAM-Windows\TooN-2.0;..\PTAM-Windows\pthread\include;..\PTAM-Windows\libcvd-20120202\libcvd-20120202;..\PTAM-Windows\gvars-3.0\gvars-3.0;..\PTAM-Windows\1394camera;$(IncludePath);;D:\code\PTAM-Windows\glew\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\code\PTAM-Windows\glew\lib\Release\Win32;D:\code\PTAM-Windows\libcvd-20120202\libcvd-20120202\lib;D:\code\PTAM-Windows\gvars-3.0\gvars-3.0\lib;D:\code\PTAM-Windows\1394camera;D:\code\PTAM-Windows\lapack-MT-debug;D:\code\PTAM-Windows\pthread\libs;D:\code\PTAM-Windows\flyCapture\lib;$(LibraryPath)</LibraryPath>
     <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\PTAM-Windows\directshow\Lib;..\PTAM-Windows\1394camera;..\PTAM-Windows\pthread\libs\x64;..\PTAM-Windows\lapack-MT-debug;..\PTAM-Windows\libcvd-20120202\libcvd-20120202\lib;..\PTAM-Windows\gvars-3.0\gvars-3.0\lib;..\PTAM-Windows\lapack-MT-release;..\PTAM-Windows\flyCapture\lib64;..\PTAM-Windows\glew\lib\Release\x64;$(LibraryPath)</LibraryPath>
     <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\PTAM-Windows\lapack-MT-debug;..\PTAM-Windows\1394camera;..\PTAM-Windows\pthread\dll;$(ExecutablePath)</ExecutablePath>
     <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\PTAM-Windows\lapack-MT-debug;..\PTAM-Windows\1394camera;..\PTAM-Windows\pthread\dll;$(ExecutablePath)</ExecutablePath>

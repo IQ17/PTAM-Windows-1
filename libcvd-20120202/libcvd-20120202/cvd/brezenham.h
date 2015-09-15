@@ -21,7 +21,7 @@
 #ifndef __BREZENHAM_H
 #define __BREZENHAM_H
 
-#include <TooN/TooN.h>
+#include "TooN/TooN.h"
 #include <cvd/image_ref.h>
 
 namespace CVD {

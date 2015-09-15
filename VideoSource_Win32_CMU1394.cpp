@@ -101,6 +101,7 @@ VideoSource::VideoSource(): m_buffer(NULL)
         }
     }
 
+#if 0 
     error = cam.SetVideoModeAndFrameRate(VIDEOMODE_640x480RGB, FRAMERATE_120);
     if (error != PGRERROR_OK)
     {
@@ -108,6 +109,7 @@ VideoSource::VideoSource(): m_buffer(NULL)
        // PrintErrorAndExit(error);
 
     }
+#endif
     cam.GetVideoModeAndFrameRate(&vm, &fr);
 
     error = cam.StartCapture();
